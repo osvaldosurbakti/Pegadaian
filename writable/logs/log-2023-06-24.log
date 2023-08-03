@@ -1,0 +1,24 @@
+CRITICAL - 2023-06-24 15:12:02 --> Call to undefined method App\Models\PegadaianModel::getDataGadaiLaporan
+#0 D:\Pegadaian\app\Controllers\Pegadaian.php(781): CodeIgniter\Model->__call('getDataGadaiLap...', Array)
+#1 D:\Pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pegadaian->list_laporan()
+#2 D:\Pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegadaian))
+#3 D:\Pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pegadaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pegadaian\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Pegadaian\\pu...')
+#6 {main}
+CRITICAL - 2023-06-24 15:16:00 --> Trying to access array offset on value of type null
+#0 D:\Pegadaian\app\Controllers\Pegadaian.php(693): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Pegadaian\\ap...', 693, Array)
+#1 D:\Pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pegadaian->list()
+#2 D:\Pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegadaian))
+#3 D:\Pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pegadaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pegadaian\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Pegadaian\\pu...')
+#6 {main}
+CRITICAL - 2023-06-24 15:16:37 --> Trying to access array offset on value of type null
+#0 D:\Pegadaian\app\Controllers\Pegadaian.php(693): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Pegadaian\\ap...', 693, Array)
+#1 D:\Pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pegadaian->list()
+#2 D:\Pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegadaian))
+#3 D:\Pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Pegadaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Pegadaian\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Pegadaian\\pu...')
+#6 {main}

@@ -1,0 +1,43 @@
+ERROR - 2023-06-18 19:33:24 --> Unknown column 'histori.kode_cb' in 'where clause'
+CRITICAL - 2023-06-18 19:33:24 --> Unknown column 'histori.kode_cb' in 'where clause'
+#0 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\kerjasama\test\pegadaian\app\Models\HIstoriModel.php(29): CodeIgniter\Model->__call('get', Array)
+#6 D:\kerjasama\test\pegadaian\app\Controllers\Dashboard.php(39): App\Models\HistoriModel->HistoriTebus('FG02', 'penebusan', 'now')
+#7 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#8 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\kerjasama\test\pegadaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\kerjasama\\te...')
+#12 {main}
+ERROR - 2023-06-18 19:36:29 --> Table 'pegadaian3.pendapatan' doesn't exist
+CRITICAL - 2023-06-18 19:36:29 --> Table 'pegadaian3.pendapatan' doesn't exist
+#0 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(juml...', 0)
+#1 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(juml...')
+#2 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(juml...')
+#3 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT SUM(juml...')
+#4 D:\kerjasama\test\pegadaian\app\Models\PendapatanModel.php(19): CodeIgniter\Model->__call('query', Array)
+#5 D:\kerjasama\test\pegadaian\app\Controllers\Dashboard.php(79): App\Models\PendapatanModel->getTotalPendapatan('FG02')
+#6 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#7 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kerjasama\test\pegadaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\kerjasama\\te...')
+#11 {main}
+ERROR - 2023-06-18 19:36:31 --> Table 'pegadaian3.pendapatan' doesn't exist
+CRITICAL - 2023-06-18 19:36:31 --> Table 'pegadaian3.pendapatan' doesn't exist
+#0 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(juml...', 0)
+#1 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(juml...')
+#2 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(juml...')
+#3 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT SUM(juml...')
+#4 D:\kerjasama\test\pegadaian\app\Models\PendapatanModel.php(19): CodeIgniter\Model->__call('query', Array)
+#5 D:\kerjasama\test\pegadaian\app\Controllers\Dashboard.php(79): App\Models\PendapatanModel->getTotalPendapatan('FG02')
+#6 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#7 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\kerjasama\test\pegadaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\kerjasama\test\pegadaian\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\kerjasama\\te...')
+#11 {main}

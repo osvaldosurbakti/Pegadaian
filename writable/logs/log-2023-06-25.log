@@ -1,0 +1,22 @@
+CRITICAL - 2023-06-25 23:06:30 --> syntax error, unexpected ';', expecting ')'
+#0 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\kerjasama\\pe...')
+#1 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pega...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pega...')
+#3 D:\kerjasama\pegadaian\app\Controllers\Pegadaian.php(35): spl_autoload_call('App\\Models\\Pega...')
+#4 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Pegadaian->__construct()
+#5 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\kerjasama\pegadaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\kerjasama\\pe...')
+#9 {main}
+CRITICAL - 2023-06-25 23:32:56 --> syntax error, unexpected ';', expecting ')'
+#0 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\kerjasama\\pe...')
+#1 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pega...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pega...')
+#3 D:\kerjasama\pegadaian\app\Controllers\Pegadaian.php(35): spl_autoload_call('App\\Models\\Pega...')
+#4 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Pegadaian->__construct()
+#5 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\kerjasama\pegadaian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\kerjasama\pegadaian\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\kerjasama\\pe...')
+#9 {main}

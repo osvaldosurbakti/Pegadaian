@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1687697830;_ci_previous_url|s:32:"http://localhost:8080/datacabang";id_user|s:1:"9";nama_user|s:12:"SUPERADMIN 1";username|s:11:"superadmin1";level|s:10:"superadmin";kode_cabang|s:4:"FG00";logged_in|b:1;errors|s:270:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>kode_cabang Sudah Terdaftar</li>
+					<li>no_telp Harus Diisi</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:3:{s:6:"errors";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:5:{s:11:"kode_cabang";s:4:"FG03";s:11:"nama_cabang";s:14:"Ricky Gadai II";s:7:"no_telp";s:0:"";s:9:"kode_toko";s:3:"FG3";s:6:"alamat";s:15:"Dicoba aja dulu";}}_ci_validation_errors|s:101:"a:2:{s:11:"kode_cabang";s:27:"kode_cabang Sudah Terdaftar";s:7:"no_telp";s:19:"no_telp Harus Diisi";}";

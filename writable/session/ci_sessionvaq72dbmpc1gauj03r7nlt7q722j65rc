@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1687700655;_ci_previous_url|s:32:"http://localhost:8080/databarang";id_user|s:1:"9";nama_user|s:12:"SUPERADMIN 1";username|s:11:"superadmin1";level|s:10:"superadmin";kode_cabang|s:4:"FG00";logged_in|b:1;errors|s:232:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>nama_barang Harus Diisi</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:3:{s:6:"errors";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:1:{s:11:"nama_barang";s:0:"";}}_ci_validation_errors|s:56:"a:1:{s:11:"nama_barang";s:23:"nama_barang Harus Diisi";}";
